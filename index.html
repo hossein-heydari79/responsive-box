@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
     <title>responsive</title>
 </head>
@@ -13,32 +15,32 @@
 
     <div class="container">
 
-        <div class="div-boxes">
-            <div>
+        <div class="div-boxes" data-aos="fade-down">
+            <div data-aos="flip-left">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="flip-down">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="zoom-in">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="zoom-out">
                 <img src="pic.jpg" alt="my-picture">
             </div>
         </div>
 
-        <div class="div-boxes">
-            <div>
+        <div class="div-boxes" data-aos="fade-down">
+            <div data-aos="zoom-in">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="zoom-in-down">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="zoom-in-left">
                 <img src="pic.jpg" alt="my-picture">
             </div>
-            <div>
+            <div data-aos="zoom-in-right">
                 <img src="pic.jpg" alt="my-picture">
             </div>
         </div>
@@ -46,5 +48,10 @@
     </div>
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
